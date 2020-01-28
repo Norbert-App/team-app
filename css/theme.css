@@ -1,13 +1,12 @@
 :root {
-  --color-primary: ;
-  --color-primary-light: ;
-  --color-secondary: ;
-  --color-accent: ;
-  --color-neutral: ;
-  --color-whatever: ;
+  --color-primary: #DBE9E9;
+  --color-primary-light: #F1F3F2;
+  --color-secondary: #88BFB0;
+  --color-secondary-dark: #395C51;
+  --color-accent-purp: #AB63F2;
+  --color-accent-pink: #F266DB;
 
-  --font-primary: ;
-  --font-secondary: ;
+  --font-primary: "GriffithGothic", serif;
 }
 
 html {
