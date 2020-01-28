@@ -11,4 +11,69 @@
 
 html {
   font-family: var(--font-primary);
+  color: black;
 }
+
+.light {
+  font-family: var(--font-primary);
+  font-weight: 300;
+}
+
+.bold {
+  font-family: var(--font-primary);
+  font-weight: bold;
+}
+
+.purple {
+  color: var(--color-accent-purp);
+}
+
+.pink {
+  color: var(--color-accent-pink);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-primary);
+  color: black;
+  font-weight: 700;
+  font-style: bold;
+}
+
+/* list fomratting */
+
+ul {
+  font-family: var(--font-primary);
+  color: var(--color-primary-purple);
+  font-weight: normal;
+  font-style: normal;
+}
+
+ol {
+  font-family: var(--font-primary);
+  color: var(--color-primary-purple);
+  font-weight: normal;
+  font-style: normal;
+}
+
+dl {
+  font-family: var(--font-primary);
+  color: var(--color-primary-purple);
+  font-weight: normal;
+  font-style: normal;
+}
+
+dt {
+  font-family: var(--font-primary);
+  color: var(--color-primary-purple);
+  font-weight: bold;
+  font-style: normal;
+}
+
+dd {
+  font-family: var(--font-primary);
+  color: var(--color-primary-purple);
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* type in the middle here to show what theme below will be */
