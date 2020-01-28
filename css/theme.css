@@ -12,6 +12,8 @@
 html {
   font-family: var(--font-primary);
   color: black;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .light {
