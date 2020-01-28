@@ -43,37 +43,112 @@ h1, h2, h3, h4 {
 
 ul {
   font-family: var(--font-primary);
-  color: var(--color-primary-purple);
   font-weight: normal;
   font-style: normal;
 }
 
 ol {
   font-family: var(--font-primary);
-  color: var(--color-primary-purple);
   font-weight: normal;
   font-style: normal;
 }
 
 dl {
   font-family: var(--font-primary);
-  color: var(--color-primary-purple);
   font-weight: normal;
   font-style: normal;
 }
 
 dt {
   font-family: var(--font-primary);
-  color: var(--color-primary-purple);
-  font-weight: bold;
-  font-style: normal;
+  font-weight: 700;
+  font-style: bold;
 }
 
 dd {
   font-family: var(--font-primary);
-  color: var(--color-primary-purple);
   font-weight: normal;
   font-style: normal;
 }
+
+/* link formatting */
+
+a {
+  font-family: var(--font-primary);
+  color: var(--color-secondary-dark);
+  font-weight: 700;
+  font-style: bold;
+}
+
+/* blockquote formatting */
+
+blockquote {
+  font-family: var(--font-primary);
+  font-weight: normal;
+  font-style: italic;
+}
+
+cite {
+  font-family: var(--font-primary);
+  font-weight: 300;
+  font-style: italic;
+  align-content: right;
+}
+
+q {
+  font-family: var(--font-primary);
+  color: var(--color-secondary-dark);
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* emphasis and edits formatting */
+
+em, i, dfn {
+  font-weight: normal;
+  font-style: italic;
+}
+
+mark {
+  background-color: var(--color-secondary);
+}
+
+strong, b {
+  font-family: var(--font-primary);
+  font-weight: bold;
+  font-style: normal;
+}
+
+del, s {
+  font-family: var(--font-primary);
+  font-weight: normal;
+  font-style: line;
+}
+
+ins, u {
+  font-family: var(--font-primary);
+  font-weight: normal;
+  font-style: underline;
+}
+
+abbr {
+  font-family: var(--font-primary);
+  font-weight: normal;
+  font-style: uppercase;
+}
+
+dt {
+  font-family: var(--font-primary);
+  font-weight: bold;
+  font-style: normal;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
 
 /* type in the middle here to show what theme below will be */
