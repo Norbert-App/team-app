@@ -1,15 +1,157 @@
 :root {
-  --color-primary: ;
-  --color-primary-light: ;
-  --color-secondary: ;
-  --color-accent: ;
-  --color-neutral: ;
-  --color-whatever: ;
+  --color-primary: #DBE9E9;
+  --color-primary-light: #F1F3F2;
+  --color-secondary: #88BFB0;
+  --color-secondary-dark: #395C51;
+  --color-accent-purp: #AB63F2;
+  --color-accent-pink: #F266DB;
 
-  --font-primary: ;
-  --font-secondary: ;
+  --font-primary: "GriffithGothic", serif;
 }
 
 html {
   font-family: var(--font-primary);
+  color: black;
+  font-weight: 300;
+  font-style: normal;
+  background-color: var(--color-primary-light);
 }
+
+.light {
+  font-family: var(--font-primary);
+  font-weight: 300;
+}
+
+.bold {
+  font-family: var(--font-primary);
+  font-weight: bold;
+}
+
+.purple {
+  color: var(--color-accent-purp);
+}
+
+.pink {
+  color: var(--color-accent-pink);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-primary);
+  color: black;
+  font-weight: 700;
+  font-style: bold;
+}
+
+/* list fomratting */
+
+ul {
+  font-family: var(--font-primary);
+  font-weight: normal;
+  font-style: normal;
+}
+
+ol {
+  font-family: var(--font-primary);
+  font-weight: normal;
+  font-style: normal;
+}
+
+dl {
+  font-family: var(--font-primary);
+  font-weight: normal;
+  font-style: normal;
+}
+
+dt {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-style: bold;
+}
+
+dd {
+  font-family: var(--font-primary);
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* link formatting */
+
+a {
+  font-family: var(--font-primary);
+  color: var(--color-secondary-dark);
+  font-weight: 700;
+  font-style: bold;
+}
+
+/* blockquote formatting */
+
+blockquote {
+  font-family: var(--font-primary);
+  font-weight: normal;
+  font-style: italic;
+}
+
+cite {
+  font-family: var(--font-primary);
+  font-weight: 300;
+  font-style: italic;
+  align-content: right;
+}
+
+q {
+  font-family: var(--font-primary);
+  color: var(--color-secondary-dark);
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* emphasis and edits formatting */
+
+em, i, dfn {
+  font-weight: normal;
+  font-style: italic;
+}
+
+mark {
+  background-color: var(--color-secondary);
+}
+
+strong, b {
+  font-family: var(--font-primary);
+  font-weight: bold;
+  font-style: normal;
+}
+
+del, s {
+  font-family: var(--font-primary);
+  font-weight: normal;
+  font-style: line;
+}
+
+ins, u {
+  font-family: var(--font-primary);
+  font-weight: normal;
+  font-style: underline;
+}
+
+abbr {
+  font-family: var(--font-primary);
+  font-weight: normal;
+  font-style: uppercase;
+}
+
+dt {
+  font-family: var(--font-primary);
+  font-weight: bold;
+  font-style: normal;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
+
+/* type in the middle here to show what theme below will be */
