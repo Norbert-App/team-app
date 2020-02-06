@@ -1,12 +1,3 @@
-.box {
-  filter: grayscale(0);
-}
-
-.box:hover {
-  filter: grayscale(50%);
-}
-
 .text {
-  text-decoration: none;
-  background-color: black;
+  background-color: var(--color-accent-purp);
 }
