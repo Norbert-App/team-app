@@ -23,3 +23,7 @@
 .is-validated:invalid + label + .error-message {
   display: block;
 }
+
+.checked {
+  color: orange;
+}
