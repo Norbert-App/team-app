@@ -1,7 +1,7 @@
-<section class="grid grid-middle island-2">
+<section class="grid grid-middle island-2 form">
 
   <form action="https://formspree.io/carl0128@algonquinlive.com" method="POST" class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-2">
-    <h2 class="font-cursive">Comment</h2>
+    <h2 class="bold">Comment</h2>
 
     {% pattern form/name %}
     {% pattern form/email %}
@@ -9,8 +9,8 @@
     {% pattern form/photo %}
     {% pattern form/comment %}
 
-    <div class="width pad-t-1-2">
-      {% pattern buttons/submit aria="This will send Jasmine and email" url="#" %}
+    <div class="pad-t-1-2">
+      {% pattern buttons/submit aria="This will send an email" url="#" %}
     </div>
   </form>
 
