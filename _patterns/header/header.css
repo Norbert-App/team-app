@@ -3,9 +3,13 @@ a {
 }
 
 .text {
-  color: var(--color-secondary-);
+  color: var(--color-secondary-dark);
 }
 
 .header {
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
+}
+
+.logo {
+  max-width: 8em;
 }
