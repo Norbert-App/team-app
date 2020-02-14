@@ -11,7 +11,7 @@ patterns:
       - name: image
         type: string
         example: "placeholder-4by6.svg"
-      - name: tittle
+      - name: title
         type: string
         example: "Making a Green Litterbox"
       - name: description
@@ -24,7 +24,7 @@ patterns:
     description: |
       This is a section can offer mutliple uses throught the website.
     fields:
-      - name: tittle
+      - name: title
         type: string
         example: "Making a Green Litterbox"
       - name: description
