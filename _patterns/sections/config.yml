@@ -116,8 +116,22 @@ patterns:
       - name: object4-description
         type: string
         example: "Include a small descritpion"
-    button-right:
-      title: "Button Right"
+  button-right:
+    title: "Button Right"
+    description: |
+      This is a section can offer mutliple uses throught the site to show case articles or to encourage users to read more.
+    fields:
+      - name: image
+        type: string
+        example: "placeholder-4by6.svg"
+      - name: article-title
+        type: string
+        example: "Article title"
+      - name: article-description
+        type: string
+        example: "Include a small descritpion"
+    button-left:
+      title: "Button Left"
       description: |
         This is a section can offer mutliple uses throught the site to show case articles or to encourage users to read more.
       fields:
@@ -130,17 +144,3 @@ patterns:
         - name: article-description
           type: string
           example: "Include a small descritpion"
-      button-left:
-        title: "Button Left"
-        description: |
-          This is a section can offer mutliple uses throught the site to show case articles or to encourage users to read more.
-        fields:
-          - name: image
-            type: string
-            example: "placeholder-4by6.svg"
-          - name: article-title
-            type: string
-            example: "Article title"
-          - name: article-description
-            type: string
-            example: "Include a small descritpion"
