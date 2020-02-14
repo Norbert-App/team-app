@@ -1,5 +1,5 @@
 title: "sections"
-description:
+description: |
     Sections
 
 patterns:
@@ -75,7 +75,6 @@ patterns:
         tyep: string
         example: "Full descroption"
 
-patterns:
   tools:
     title: "Tools"
     description: |
