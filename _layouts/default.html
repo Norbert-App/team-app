@@ -27,11 +27,13 @@
   </ul>
   <!-- header will have image and navigation together most likely -->
   <header role="banner" class="masthead" id="header">
+    {% pattern header/basic %}
     <!-- {% pattern header/header image="" %} -->
   </header>
   <main role="main" id="main" tabindex="0">
     {{content}}
   </main>
+  {% pattern footer/footer %}
   <!-- {% pattern footer/footer %} -->
 </body>
 </html>
