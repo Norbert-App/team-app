@@ -4,10 +4,119 @@ description:
 
 patterns:
   img-left:
-    title: "Image Left"
+    title: "Img Left"
     description: |
-      This is a section that can offer mutliple uses throught the website.
+      This is a section can offer mutliple uses throught the website.
     fields:
       - name: image
         type: string
-        example: "placeholder-4by6.jpg"
+        example: "placeholder-4by6.svg"
+      - name: tittle
+        type: string
+        example: "Making a Green Litterbox"
+      - name: description
+        type: string
+        example: "Include a small descritpion"
+
+patterns:
+  img-right:
+    title: "Img Right"
+    description: |
+      This is a section can offer mutliple uses throught the website.
+    fields:
+      - name: tittle
+        type: string
+        example: "Making a Green Litterbox"
+      - name: description
+        type: string
+        example: "Include a small descritpion"
+      - name: image
+        type: string
+        example: "placeholder-4by6.svg"
+
+patterns:
+  step-left:
+    title: "Step Left"
+    description: |
+      This is a section can offer mutliple uses throught the DIY create section breaking down each step as needed for the user.
+    fields:
+      - name: image
+        type: string
+        example: "placeholder-4by6.svg"
+      - name: step
+        type: string
+        example: "Step 1"
+      - name: description
+        type: string
+        example: "Include a small descritpion"
+      - name: step-minidescription
+        type: string
+        example: "Mini Description"
+      - name: step-description
+        tyep: string
+        example: "Full descroption"
+
+patterns:
+  step-right:
+    title: "Step Right"
+    description: |
+      This is a section can offer mutliple uses throught the DIY create section breaking down each step as needed for the user.
+    fields:
+      - name: image
+        type: string
+        example: "placeholder-4by6.svg"
+      - name: step
+        type: string
+        example: "Step 1"
+      - name: description
+        type: string
+        example: "Include a small descritpion"
+      - name: step-minidescription
+        type: string
+        example: "Mini Description"
+      - name: step-description
+        tyep: string
+        example: "Full descroption"
+
+patterns:
+  tools:
+    title: "Tools"
+    description: |
+      This is a section that shows the tools that can only be used in the DIY create section.
+    fields:
+      - name: image1
+        type: string
+        example: "placeholder-4by6.svg"
+      - name: object1
+        type: string
+        example: "Object Title"
+      - name: object1-description
+        type: string
+        example: "Include a small descritpion"
+      - name: image2
+        type: string
+        example: "placeholder-4by6.svg"
+      - name: object2
+        type: string
+        example: "Object Title"
+      - name: object2-description
+        type: string
+        example: "Include a small descritpion"
+      - name: image3
+        type: string
+        example: "placeholder-4by6.svg"
+      - name: object3
+        type: string
+        example: "Object Title"
+      - name: object3-description
+        type: string
+        example: "Include a small descritpion"
+      - name: image4
+        type: string
+        example: "placeholder-4by6.svg"
+      - name: object4
+        type: string
+        example: "Object Title"
+      - name: object4-description
+        type: string
+        example: "Include a small descritpion"
