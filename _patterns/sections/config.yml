@@ -1,0 +1,13 @@
+title: "sections"
+description:
+    Sections
+
+patterns:
+  img-left:
+    title: "Image Left"
+    description: |
+      This is a section that can offer mutliple uses throught the website.
+    fields:
+      - name: image
+        type: string
+        example: "placeholder-4by6.jpg"
