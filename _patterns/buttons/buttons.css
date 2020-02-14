@@ -4,3 +4,10 @@
   border-style: none;
   border-radius: 16px 0 16px 0;
 }
+
+.btn-submit {
+ background-color: var(--color-accent-pink);
+ color: #fff;
+ border-style: none;
+ border-radius: 16px 0 16px 0;
+}
