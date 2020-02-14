@@ -1,0 +1,15 @@
+a {
+  text-decoration: none;
+}
+
+.text {
+  color: var(--color-secondary-dark);
+}
+
+.header {
+  background-color: var(--color-primary);
+}
+
+.logo {
+  max-width: 8em;
+}
