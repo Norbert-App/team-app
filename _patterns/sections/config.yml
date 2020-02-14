@@ -18,7 +18,6 @@ patterns:
         type: string
         example: "Include a small descritpion"
 
-patterns:
   img-right:
     title: "Img Right"
     description: |
@@ -34,7 +33,6 @@ patterns:
         type: string
         example: "placeholder-4by6.svg"
 
-patterns:
   step-left:
     title: "Step Left"
     description: |
@@ -56,7 +54,6 @@ patterns:
         tyep: string
         example: "Full descroption"
 
-patterns:
   step-right:
     title: "Step Right"
     description: |
