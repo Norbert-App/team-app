@@ -1,0 +1,22 @@
+title: "Buttons"
+description: |
+Buttons will be used on every page throughout our website to keep it clean and organized.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+    This button will be used throughout the website.
+    width: "12em"
+
+submit:
+    title: "Submit"
+    description: This is only for my form, for the submit button
+    width: 200
+    fields:
+      - name: aria
+        type: string
+        example: "This will send Jasmine and email"
+      - name: url
+        type: url
+        example: "#"
