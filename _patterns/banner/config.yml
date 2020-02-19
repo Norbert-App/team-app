@@ -3,14 +3,14 @@ description: |
   "The banner will be used on a couple of the pages to invite the cat-loving reader."
 
 patterns:
-  buttons:
+  banner:
     title: "Banner"
     description: |
       This banner will be used throughout the website.
     fields:
       - name: text
         type: string
-        example: "Submit"
-      - name: url
-        type: url
-        example: "#"
+        example: "Heading"
+      - name: sub-text
+        type: string
+        example: "Sub heading"
