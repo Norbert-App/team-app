@@ -1,1 +1,16 @@
+.form {
+  background-color: var(--color-secondary);
+  color: var(--color-primary-light);
+}
 
+.width {
+  width: 100%;
+}
+
+@media only screen and (min-width: 60em){
+
+  .width {
+  width: 50%;
+  }
+
+}
