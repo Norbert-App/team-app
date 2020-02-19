@@ -1,12 +1,14 @@
-<section class="grid grid-middle island-2">
+<section class="grid island-2">
 
-  <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-2 island">
-    <img class="img-flex" src="/images/{{include.image}}" alt="">
-  </div>
+  <figure class="unit xs-1 s-1 m-1-2 l-1-2">
+    <div class="embed embed-1by4">
+      <img class="embed-item" src="/images/{{include.image}}" alt="">
+    </div>
+  </figure>
 
   <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-2">
     <h2>{{include.step | default: 'Step 1'}}</h2>
-    <p class="max-length mega">{{include.step-minidescription | default: 'Small description of step'}}</p>
+    <p class="mega">{{include.step-minidescription | default: 'Small description of step'}}</p>
 
     <p class="max-length">{{include.step-description | default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'}}</p>
   </div>
