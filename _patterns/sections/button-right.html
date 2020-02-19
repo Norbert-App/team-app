@@ -1,0 +1,16 @@
+<section class="grid island-2">
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-2 island">
+    <img class="img-flex" src="/images/{{include.image}}" alt="">
+  </div>
+
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-2">
+    <h3>{{include.article-title | default: 'Article Preview'}}</h3>
+    <p class="max-length">{{include.article-description | default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'}}</p>
+
+    <div class="width">
+      {% pattern buttons/buttons %}
+    </div>
+
+  </div>
+
+</section>
