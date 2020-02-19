@@ -10,7 +10,7 @@ patterns:
     fields:
       - name: text
         type: string
-        example: "Submit"
-      - name: url
-        type: url
-        example: "#"
+        example: "Heading"
+      - name: sub-text
+        type: string
+        example: "Sub heading"
