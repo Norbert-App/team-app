@@ -3,12 +3,7 @@
   color: var(--color-primary-light);
 }
 
-.width {
-  width: 40%;
-  margin-left: 4em;
-}
-
-.width-r {
-  width: 40%;
-  margin-right: 4em;
+.embed-1by4 {
+  width: 400px;
+  height: 800px;
 }
