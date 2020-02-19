@@ -13,4 +13,4 @@ patterns:
         example: "Heading"
       - name: sub-text
         type: string
-        example: "Sub Heading"
+        example: "Sub heading"
