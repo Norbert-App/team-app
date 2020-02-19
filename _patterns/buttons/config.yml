@@ -3,7 +3,7 @@ description: |
   Buttons will be used on every page throughout our website to keep it clean and organized.
 
 patterns:
-  button:
+  buttons:
     title: "Basic"
     description: |
       This button will be used throughout the website.
