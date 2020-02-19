@@ -3,7 +3,14 @@
   color: var(--color-primary-light);
 }
 
-.embed-1by4 {
-  width: 400px;
-  height: 800px;
+.width {
+  width: 100%;
+}
+
+@media only screen and (min-width: 60em){
+
+  .width {
+  width: 50%;
+  }
+
 }
