@@ -2,3 +2,13 @@
   background-color: var(--color-secondary);
   color: var(--color-primary-light);
 }
+
+.width {
+  width: 40%;
+  margin-left: 4em;
+}
+
+.width-r {
+  width: 40%;
+  margin-right: 4em;
+}
