@@ -1,3 +1,25 @@
 .banner-text {
 color: var(--color-accent-purp);
 }
+
+@media only screen and (min-width: 48em) {
+
+  .title {
+    font-size: 60px;
+  }
+
+  .sub {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  .title {
+    font-size: 100px;
+  }
+
+  .sub {
+    font-size: 60px;
+  }
+}

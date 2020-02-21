@@ -1,23 +1,17 @@
 a {
   text-decoration: none;
+  list-style-type: none;
 }
 
-.header {
+.nav {
   background-color: var(--color-primary);
-}
-
-.logo {
-  max-width: 6em;
 }
 
 .text {
   color: var(--color-secondary-dark);
+  text-decoration: none;
 }
 
 .text:hover {
   color: var(--color-accent-purp);
-}
-
-.current {
-  border-bottom: 5px solid var(--color-primary-purple);
 }
